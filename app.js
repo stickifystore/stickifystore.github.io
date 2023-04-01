@@ -34,7 +34,7 @@ const products = [
   },
   {
     id: 3,
-    title: "Memes",
+    title: "Gaming",
     price: "35/-",
     colors: [
       {
@@ -49,7 +49,7 @@ const products = [
   },
   {
     id: 4,
-    title: "Marvel",
+    title: "Neon",
     price: "35/-",
     colors: [
       {
