@@ -49,7 +49,7 @@ const products = [
   },
   {
     id: 4,
-    title: "Neon",
+    title: "Quotes",
     price: "35/-",
     colors: [
       {
