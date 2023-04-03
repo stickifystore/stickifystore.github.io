@@ -94,6 +94,40 @@
           </div>
         </div>
       </div>
+<!--Cart Button-->
+    <a href="cart.html">
+        <h3 id="cart" style="color: white;"> Go To Cart </h3>
+    </a>
+    <script>
+        const backButton = document.getElementById("back");
+        backButton.addEventListener("click", function() {
+        window.location.href = document.referrer;
+        });
+    </script>
+<!--Cart - css - 
+                    #cart 
+                    {
+                    position: absolute;
+                    top: 25px;
+                    right: 30px;
+                    width: 70px;
+                    height: 70px;
+                    font-size: 24px;
+                    font-family: "Lato", sans-serif;
+                    border-radius: 50%;
+                    background-color: #2c3e50; /*bg*/
+                    color: #fff; /*text*/
+                    border: 2px solid #d2dae2;
+                    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+                    }
+
+                    #cart:hover 
+                    {
+                    transform: scale(1.1);
+                    box-shadow: 0 0 35px #fff;
+                    }
+-->
+<!--Cart Script End-->
       
 
     <div class="product" id="product">
@@ -104,28 +138,7 @@
             <p class="productDesc">Stickers Made With Original High Quality Vinyl.</p>
             <button class="productButton">BUY NOW!</button>
         </div>
-        <div class="payment">
-            <h1 class="payTitle">Personal Information</h1>
-            <label>Name and Surname</label>
-            <input type="text" placeholder="John Doe" class="payInput">
-            <label>Phone Number</label>
-            <input type="text" placeholder="+1 234 5678" class="payInput">
-            <label>Address</label>
-            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
-            <h1 class="payTitle">Card Information</h1>
-            <div class="cardIcons">
-                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
-                <img src="./img/master.png" alt="" width="40" class="cardIcon">
-            </div>
-            <input type="password" class="payInput" placeholder="Card Number">
-            <div class="cardInfo">
-                <input type="text" placeholder="mm" class="payInput sm">
-                <input type="text" placeholder="yyyy" class="payInput sm">
-                <input type="text" placeholder="cvv" class="payInput sm">
-            </div>
-            <button class="payButton">Checkout!</button>
-            <span class="close">X</span>
-        </div>
+        
     </div>
     <div class="gallery">
         <div class="galleryItem">

@@ -142,4 +142,20 @@ button {
     background-color: white;
     color: black;
   }
+
+  #cart {
+    position: absolute;
+    top: 35px;
+    right: 60px;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+    border: 3px solid white;
+}
+
+#cart:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 35px #fff;
+}
   
+

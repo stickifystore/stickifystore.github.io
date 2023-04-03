@@ -571,3 +571,33 @@ footer {
     padding: 20px;
   }
 }
+
+
+#cart {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+  border: 3px solid white;
+  text-decoration: none;
+}
+
+
+#cart:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 35px #fff;
+  text-decoration: none;
+}
+
+
+.cart{
+  text-decoration: none;
+  color: white;
+}
+
+.cart:active{
+  color:white;
+  text-decoration: none;
+}
